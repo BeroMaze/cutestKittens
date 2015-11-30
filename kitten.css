@@ -1,0 +1,73 @@
+body {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    border: solid black;
+    width: 90%;
+}
+
+section {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    border: solid black;
+    width: 90%;
+}
+
+article {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+
+#chooses {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;
+}
+
+#kitten1 {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    width: 300px;
+    height: 400px;
+    border: solid black;
+    margin-right: 40px;
+}
+
+#kitten2 {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    width: 300px;
+    height: 400px;
+    border: solid black;
+}
+
+#img1 {
+  width: 275px;
+    height: 375px;
+    /*border: solid black;*/
+}
+
+#img2 {
+  width: 275px;
+    height: 375px;
+    /*border: solid black;*/
+}

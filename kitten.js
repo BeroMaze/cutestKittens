@@ -43,6 +43,7 @@ document.getElementById('img2').addEventListener('click', function () {
       window.scrollTo(0, 400);
       $('#next').html('<button id = "button">Next</button>');
 
+
       // console.log(kitten2.count);
       // console.log(kitten2);
       // console.log(number2);

@@ -2,49 +2,66 @@
 <html>
 <head>
   <title>Cutest Kittens Pageant</title>
-  <link rel="stylesheet" type="text/css" href="kitten.css">
-  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="kitten.css">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<header>
-  <img src="pictures/prayKitten.jpg" id = 'kittenLeft'>
-  <h1>Cutest Kitten Contest</h1>
-  <img src="pictures/tungeKitten.jpg" id = 'kittenRight'>
-</header>
 
-<section>
-<aside>
-  <img src="pictures/pawsLeft.gif" id="pawsLeft">
-</aside>
-  <article>
-    <h2><u>Choose The Cuttest Kitten</u></h2>
-    <div id = 'next'></div>
-    <div id = 'chooses'>
-      <div id = 'kitten1'>
-        <div id ='img1' class = 'image'></div>
-        <p2 class ='desc'>Kitten 1</p2>
-      </div>
-      <div id = 'kitten2'>
-        <div id = 'img2' class = 'image'></div>
-        <p2 class ='desc'>Kitten 2</p2>
-      </div>
-    </div>
-    <p3>Please Click On The <u><strong>Cutest Kitten!!</strong></u></p3> <br />
-    <div id ='theChart'></div>
-  </article>
-  <aside>
-  <img src="pictures/pawsRight.gif" id="pawsRight">
-</aside>
+    <header>
+        <img src="pictures/prayKitten.jpg" id = 'kittenLeft'>
+        <h1>Cutest Kitten Contest</h1>
+        <img src="pictures/tungeKitten.jpg" id = 'kittenRight'>
+    </header>
 
-</section>
-<footer>
-  <p>Brought to you by: CutestKittenPageant.com</p>
-</footer>
+    <section>
+        <aside>
+          <img src="pictures/pawsLeft.gif" id="pawsLeft"> <!-- paws image left side -->
+        </aside>
+
+        <article>
+            <h2><u>Choose The Cuttest Kitten</u></h2>
+
+            <div id = 'next'></div> <!-- next button div insert -->
+
+
+            <div id = 'chooses'>
+                  <!-- image for choose one  -->
+                  <div id = 'kitten1'>
+                      <div id ='img1' class = 'image'></div>
+                      <p2 class ='desc'>Kitten 1</p2>
+                  </div>
+
+                  <!-- image for choose two -->
+                  <div id = 'kitten2'>
+                      <div id = 'img2' class = 'image'></div>
+                      <p2 class ='desc'>Kitten 2</p2>
+                  </div>
+            </div>
+
+            <p3>Please Click On The <u><strong>Cutest Kitten!!</strong></u></p3> <br />
+
+            <!-- chart div insert -->
+            <div id ='theChart'></div>
+        </article>
+
+        <aside>
+          <img src="pictures/pawsRight.gif" id="pawsRight"> <!-- paws image right side -->
+        </aside>
+    </section>
+
+    <footer>
+      <p>Brought to you by: CutestKittenPageant.com</p>
+    </footer>
+
+<!-- JQUERY -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js'></script>
+<!-- CHART.JS  -->
 <script src = 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js'></script>
+<!-- OBJECT JS FILE -->
 <script src='objects.js'></script>
+<!-- KITTEN JS FILE -->
 <script src="kitten.js"></script>
 </body>
 </html>

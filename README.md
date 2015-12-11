@@ -17,8 +17,12 @@ the user vote on the next kittens.
 There are a few thinks going on in the background. As the user votes the 
 the winner turns green and the looser turns red. Then the window scrolls
 to the bottom and a chart appears. Once the user has voted the can hit the 
-next button and two new kittens are put up to vote. the screen then scrolls 
-back to the top of the screen.  
+next button and two new kittens are put up to vote. The screen then scrolls 
+back to the top of the screen. 
+
+At the end of the game the page changes to show the user all the kitten images
+and the graph. This way the user can see the kittens that they voted on and how
+they are doing. 
 
 
 
